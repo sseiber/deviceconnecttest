@@ -1,0 +1,32 @@
+{
+    "name": "iotc-local-device",
+    "version": "1.0.1",
+    "description": "Azure IoT Device SDK Sample",
+    "main": "index.js",
+    "scripts": {
+        "eslint": "eslint -c .eslintrc.json --ext .ts .",
+        "build": "node ./node_modules/typescript/bin/tsc -p ."
+    },
+    "author": "sseiber",
+    "license": "MIT",
+    "dependencies": {
+        "azure-iot-device": "1.17.3",
+        "azure-iot-device-mqtt": "1.15.3",
+        "azure-iot-provisioning-device": "^1.8.7",
+        "azure-iot-provisioning-device-mqtt": "^1.7.7",
+        "azure-iot-security-symmetric-key": "^1.7.7",
+        "dotenv": "^8.2.0",
+        "lodash.get": "^4.4.2",
+        "lodash.set": "^4.3.2",
+        "moment": "^2.29.1"
+    },
+    "devDependencies": {
+        "@types/node": "^14.14.27",
+        "@typescript-eslint/eslint-plugin": "^4.12.0",
+        "@typescript-eslint/parser": "^4.12.0",
+        "eslint": "^7.17.0",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-jsdoc": "^31.6.1",
+        "typescript": "^4.1.5"
+    }
+}
